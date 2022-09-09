@@ -1,3 +1,45 @@
+# Analysing logic
+
+1. A            
+
+A
+
+2. B            
+
+*A                  ((1(n)-0(i))*space + A)
+B*B                 ((1(n)-1(i))*space + B) + (1(i) + (1(i)-1))*space + B
+*A
+
+3. C
+
+**A                 ((2(n)-0(i))*space + A)
+*B*B                ((2(n)-1(i))*space + B) + (1(i) + (1(i)-1))*space + B
+C***C               ((2(n)-2(i))*space + C) + (2(i) + (2(i)-1))*space + C
+*B*B                
+**A
+
+# Required function (n-i)*space + char + (i+i-1)*space + char
+# Required function for A : (n-i)*space + A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
